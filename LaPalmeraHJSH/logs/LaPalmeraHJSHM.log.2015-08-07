@@ -1,0 +1,95 @@
+2015-08-07 17:12:09,514 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 17:12:22,527 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-08-07 17:12:26,494 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 17:12:28,572 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 17:12:46,189 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao save 
+2015-08-07 17:12:46,262 ERROR[Main Thread][OrdenFabricacionDao] Fatal could not execute statement 
+2015-08-07 17:20:55,296 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 17:21:02,324 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-08-07 17:21:03,682 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 17:21:05,476 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 18:32:44,279 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 18:32:44,967 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 18:32:55,854 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 18:32:57,688 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 18:40:31,706 ERROR[Main Thread][SolicitudProductoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Detallepedido.cabezapedido] 
+2015-08-07 18:45:57,427 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 18:45:58,102 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 18:46:03,316 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 18:46:05,143 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 18:46:51,189 ERROR[Main Thread][SolicitudProductoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Detallepedido.cabezapedido] 
+2015-08-07 18:49:52,597 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 18:49:53,292 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 18:50:06,244 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 18:50:07,960 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 18:50:35,267 ERROR[Main Thread][SolicitudProductoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Despachopedido.cabezapedido] 
+2015-08-07 18:52:00,776 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 18:52:01,539 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 18:52:05,043 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 18:52:06,843 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 18:52:31,067 ERROR[Main Thread][SolicitudProductoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Confirmacionpedido.cabezapedido] 
+2015-08-07 18:53:54,123 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 18:53:54,865 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 18:53:58,540 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 18:54:00,311 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 18:55:12,898 ERROR[Main Thread][SolicitudProductoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Programarproduccion.ordenfabricacion] 
+2015-08-07 18:58:50,401 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 18:58:51,242 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 18:59:55,901 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 18:59:57,608 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 19:00:26,997 ERROR[Main Thread][SolicitudProductoDao] Fatal could not execute statement 
+2015-08-07 19:14:17,517 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 19:14:18,152 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 19:14:18,159 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 19:14:19,520 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 19:33:18,986 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 19:33:19,563 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 19:33:19,565 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 19:33:20,997 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 19:47:04,740 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 19:47:05,310 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 19:47:05,319 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 19:47:06,731 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 19:47:06,981 ERROR[Main Thread][SolicitudProductoDao] Fatal attempt to create saveOrUpdate event with null entity 
+2015-08-07 19:47:44,765 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 19:47:45,452 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 19:47:50,851 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 19:47:52,565 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 19:48:05,874 ERROR[Main Thread][SolicitudProductoDao] Fatal attempt to create saveOrUpdate event with null entity 
+2015-08-07 19:48:43,406 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 19:48:44,126 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 19:48:50,903 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 19:48:52,612 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 19:50:07,720 ERROR[Main Thread][SolicitudProductoDao] Fatal attempt to create saveOrUpdate event with null entity 
+2015-08-07 21:23:50,834 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 21:23:51,425 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 21:23:51,427 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 21:23:52,700 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 21:45:53,478 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 21:45:54,046 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 21:45:54,048 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 21:45:55,589 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 21:46:50,973 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 21:46:51,511 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 21:46:51,513 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 21:46:53,003 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 21:47:33,587 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 21:47:34,120 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 
+2015-08-07 21:47:34,122 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 21:47:35,652 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 23:48:39,899 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 23:48:40,476 DEBUG[Main Thread][ProductoLineaDao] ProductoLineaDao get 
+2015-08-07 23:48:40,478 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 23:48:41,875 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 23:56:16,608 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 23:56:17,290 DEBUG[Main Thread][ProductoLineaDao] ProductoLineaDao get 
+2015-08-07 23:56:17,292 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 23:56:18,888 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 23:57:44,682 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 23:58:15,963 DEBUG[Main Thread][ProductoLineaDao] ProductoLineaDao get 
+2015-08-07 23:58:15,968 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 23:58:17,716 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-07 23:58:57,012 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-07 23:59:15,312 DEBUG[Main Thread][ProductoLineaDao] ProductoLineaDao get 
+2015-08-07 23:59:16,214 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-07 23:59:18,048 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 

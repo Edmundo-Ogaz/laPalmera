@@ -1,0 +1,66 @@
+<div id="ordenFabricacionConsulta">
+	<div id="buscar" class="row">
+		<div class="col-md-12">
+			<div class='panel panel-primary'>
+				<div class='panel-body'>
+					<div class="row">
+						<div class="col-md-3" style="padding-right: 0px;">
+							<div class="input-group">
+							 	<span class="input-group-addon">Orden Fabricación</span>
+							 	<input type="text" id="ordenFabricacion" class="form-control"></input>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="row">
+						<div class="col-md-4">
+				            <div class="form-group">
+				    			<div class="input-group date" id="datetimepickerInicio">
+				    				<span class="input-group-addon">Fecha Incio</span>
+				    				<input type="text" class="form-control"/>
+					    			<span class="input-group-addon">
+					    				<span class="glyphicon glyphicon-calendar"></span>
+					    			</span>
+				    			</div>
+				    			<input type='hidden' id="fechaInicio"/>
+				            </div>
+				        </div>
+						<div class="col-md-4">
+				            <div class="form-group">
+				    			<div class="input-group date" id="datetimepickerTermino">
+				    				<span class="input-group-addon">Fecha Termino</span>
+				    				<input type="text" class="form-control"/>
+					    			<span class="input-group-addon">
+					    				<span class="glyphicon glyphicon-calendar"></span>
+					    			</span>
+				    			</div>
+				    			<input type='hidden' id="fechaTermino"/>
+				            </div>
+				        </div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="input-group">
+					    		<span class="input-group-addon">Estado Orden Fabricación</span>
+								<select id="estadoOrdenFabricacion" class="form-control input-small"></select>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="row">
+						<div class="col-md-12">
+							<button type="button" id="buscarPedido" class="btn btn-primary">Buscar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<div id="lista" class="row">
+		<div class="col-md-12">
+			<table id="navgrid" ></table>
+			<div id="pagernav" ></div>
+		</div>
+	</div>
+</div>

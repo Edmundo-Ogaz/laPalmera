@@ -1,0 +1,376 @@
+2015-07-12 02:22:36,141 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 02:22:36,726 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-12 02:22:36,729 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 02:22:37,468 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: Collection has neither generic type or OneToMany.targetEntity() defined: cl.obam.pasteleria.lapalmera.model.Lineaproduccion.productolineas
+	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionType(CollectionBinder.java:643)
+	at org.hibernate.cfg.annotations.CollectionBinder.bind(CollectionBinder.java:536)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1956)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:767)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:686)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3540)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3494)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1379)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.CabezaPedidoDao.getAll(CabezaPedidoDao.java:43)
+	at cl.obam.pasteleria.lapalmera.service.CabezaPedidoService.getAll(CabezaPedidoService.java:23)
+	at cl.obam.pasteleria.lapalmera.test.CabezaPedidoSeviceTest.getAll(CabezaPedidoSeviceTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-12 14:13:21,974 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 14:13:22,671 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-12 14:13:22,674 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 14:13:23,699 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: Collection has neither generic type or OneToMany.targetEntity() defined: cl.obam.pasteleria.lapalmera.model.Lineaproduccion.productolineas
+	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionType(CollectionBinder.java:643)
+	at org.hibernate.cfg.annotations.CollectionBinder.bind(CollectionBinder.java:536)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1956)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:767)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:686)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3540)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3494)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1379)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.CabezaPedidoDao.getAll(CabezaPedidoDao.java:43)
+	at cl.obam.pasteleria.lapalmera.service.CabezaPedidoService.getAll(CabezaPedidoService.java:23)
+	at cl.obam.pasteleria.lapalmera.test.CabezaPedidoSeviceTest.getAll(CabezaPedidoSeviceTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-12 14:18:22,442 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 14:18:23,125 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-12 14:18:23,128 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 14:18:24,155 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: Collection has neither generic type or OneToMany.targetEntity() defined: cl.obam.pasteleria.lapalmera.model.Lineaproduccion.programarproduccions
+	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionType(CollectionBinder.java:643)
+	at org.hibernate.cfg.annotations.CollectionBinder.bind(CollectionBinder.java:536)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1956)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:767)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:686)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3540)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3494)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1379)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.CabezaPedidoDao.getAll(CabezaPedidoDao.java:43)
+	at cl.obam.pasteleria.lapalmera.service.CabezaPedidoService.getAll(CabezaPedidoService.java:23)
+	at cl.obam.pasteleria.lapalmera.test.CabezaPedidoSeviceTest.getAll(CabezaPedidoSeviceTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-12 14:26:59,449 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 14:27:00,105 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-12 14:27:00,108 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 14:27:01,138 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: Collection has neither generic type or OneToMany.targetEntity() defined: cl.obam.pasteleria.lapalmera.model.Otracaracteristica.productos
+	at org.hibernate.cfg.annotations.CollectionBinder.getCollectionType(CollectionBinder.java:643)
+	at org.hibernate.cfg.annotations.CollectionBinder.bind(CollectionBinder.java:536)
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1956)
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:767)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:686)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3540)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3494)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1379)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.CabezaPedidoDao.getAll(CabezaPedidoDao.java:43)
+	at cl.obam.pasteleria.lapalmera.service.CabezaPedidoService.getAll(CabezaPedidoService.java:23)
+	at cl.obam.pasteleria.lapalmera.test.CabezaPedidoSeviceTest.getAll(CabezaPedidoSeviceTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-12 17:51:54,880 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 17:51:55,569 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-12 17:51:55,572 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 17:51:57,293 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 17:54:58,362 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 17:55:37,327 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-12 17:55:37,330 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 17:55:39,462 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 19:34:41,572 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 19:34:42,258 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllContainBy 
+2015-07-12 19:34:42,261 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 19:34:43,981 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 19:34:44,413 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-07-12 19:34:44,419 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllBeginWithBy 
+2015-07-12 19:34:44,421 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEqBy 
+2015-07-12 19:34:44,424 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotIsNullBy 
+2015-07-12 19:34:44,425 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllIsNullBy 
+2015-07-12 19:34:44,427 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotContainBy 
+2015-07-12 19:34:44,428 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-07-12 19:34:44,468 ERROR[Main Thread][CapturaProduccionDao] Fatal not-null property references a null or transient value: cl.obam.pasteleria.lapalmera.model.Capturaproduccion.fechacapturaproduccion 
+2015-07-12 19:34:44,474 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-07-12 19:34:44,475 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEndWithBy 
+2015-07-12 19:34:44,477 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotBeginWithBy 
+2015-07-12 19:34:44,478 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEndWithBy 
+2015-07-12 19:44:37,093 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 19:44:37,775 DEBUG[Main Thread][CargoDao] CargoDao getAllContainBy 
+2015-07-12 19:44:37,778 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 19:44:39,503 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 19:44:40,007 DEBUG[Main Thread][CargoDao] CargoDao getAll 
+2015-07-12 19:44:40,010 DEBUG[Main Thread][CargoDao] CargoDao getAllBeginWithBy 
+2015-07-12 19:44:40,013 DEBUG[Main Thread][CargoDao] CargoDao getAllNotEqBy 
+2015-07-12 19:44:40,017 DEBUG[Main Thread][CargoDao] CargoDao getAllNotIsNullBy 
+2015-07-12 19:44:40,020 DEBUG[Main Thread][CargoDao] CargoDao getAllIsNullBy 
+2015-07-12 19:44:40,022 DEBUG[Main Thread][CargoDao] CargoDao getAllNotContainBy 
+2015-07-12 19:44:40,023 DEBUG[Main Thread][CargoDao] CargoDao save 
+2015-07-12 19:44:40,145 DEBUG[Main Thread][CargoDao] CargoDao get 
+2015-07-12 19:44:40,171 DEBUG[Main Thread][CargoDao] CargoDao update 
+2015-07-12 19:44:40,235 DEBUG[Main Thread][CargoDao] CargoDao delete 
+2015-07-12 19:44:40,345 DEBUG[Main Thread][CargoDao] CargoDao getAllEqBy 
+2015-07-12 19:44:40,348 DEBUG[Main Thread][CargoDao] CargoDao getAllEndWithBy 
+2015-07-12 19:44:40,351 DEBUG[Main Thread][CargoDao] CargoDao getAllNotBeginWithBy 
+2015-07-12 19:44:40,353 DEBUG[Main Thread][CargoDao] CargoDao getAllNotEndWithBy 
+2015-07-12 19:45:27,537 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 19:45:28,223 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-12 19:45:28,226 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 19:45:29,948 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 19:45:30,469 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-12 19:45:30,487 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-12 19:45:30,491 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-12 19:45:30,494 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-12 19:45:30,496 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-12 19:45:30,500 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-12 19:45:30,502 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-12 19:45:30,526 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-12 19:45:30,646 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-12 19:45:30,649 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-12 19:45:30,712 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-12 19:45:30,780 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-12 19:45:30,782 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-12 19:45:30,784 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-12 19:45:30,786 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-12 19:55:28,460 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 19:55:29,151 DEBUG[Main Thread][ClienteDao] ClienteDao getAllContainBy 
+2015-07-12 19:55:29,154 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 19:55:30,876 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 19:55:31,303 DEBUG[Main Thread][ClienteDao] ClienteDao getAll 
+2015-07-12 19:55:31,309 DEBUG[Main Thread][ClienteDao] ClienteDao getAllBeginWithBy 
+2015-07-12 19:55:31,311 DEBUG[Main Thread][ClienteDao] ClienteDao getAllNotEqBy 
+2015-07-12 19:55:31,313 DEBUG[Main Thread][ClienteDao] ClienteDao getAllNotIsNullBy 
+2015-07-12 19:55:31,315 DEBUG[Main Thread][ClienteDao] ClienteDao getAllIsNullBy 
+2015-07-12 19:55:31,316 DEBUG[Main Thread][ClienteDao] ClienteDao getAllNotContainBy 
+2015-07-12 19:55:31,318 DEBUG[Main Thread][ClienteDao] ClienteDao save 
+2015-07-12 19:55:31,350 ERROR[Main Thread][ClienteDao] Fatal not-null property references a null or transient value: cl.obam.pasteleria.lapalmera.model.Cliente.comuna 
+2015-07-12 19:55:31,355 DEBUG[Main Thread][ClienteDao] ClienteDao getAllEqBy 
+2015-07-12 19:55:31,356 DEBUG[Main Thread][ClienteDao] ClienteDao getAllEndWithBy 
+2015-07-12 19:55:31,358 DEBUG[Main Thread][ClienteDao] ClienteDao getAllNotBeginWithBy 
+2015-07-12 19:55:31,359 DEBUG[Main Thread][ClienteDao] ClienteDao getAllNotEndWithBy 
+2015-07-12 01:05:48,594 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 01:05:49,284 DEBUG[Main Thread][ComunaDao] ComunaDao getAllContainBy 
+2015-07-12 01:05:49,287 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 01:05:51,012 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 01:05:51,530 DEBUG[Main Thread][ComunaDao] ComunaDao getAll 
+2015-07-12 01:05:51,540 DEBUG[Main Thread][ComunaDao] ComunaDao getAllBeginWithBy 
+2015-07-12 01:05:51,542 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotEqBy 
+2015-07-12 01:05:51,547 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotIsNullBy 
+2015-07-12 01:05:51,549 DEBUG[Main Thread][ComunaDao] ComunaDao getAllIsNullBy 
+2015-07-12 01:05:51,551 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotContainBy 
+2015-07-12 01:05:51,553 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-12 01:05:51,583 DEBUG[Main Thread][ComunaDao] ComunaDao save 
+2015-07-12 01:05:51,650 ERROR[Main Thread][ComunaDao] Fatal could not execute statement 
+2015-07-12 01:05:51,656 DEBUG[Main Thread][ComunaDao] ComunaDao getAllEqBy 
+2015-07-12 01:05:51,658 DEBUG[Main Thread][ComunaDao] ComunaDao getAllEndWithBy 
+2015-07-12 01:05:51,660 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotBeginWithBy 
+2015-07-12 01:05:51,664 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotEndWithBy 
+2015-07-12 09:00:19,959 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 09:00:20,654 DEBUG[Main Thread][ComunaDao] ComunaDao getAllContainBy 
+2015-07-12 09:00:20,657 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 09:00:22,390 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 09:00:22,911 DEBUG[Main Thread][ComunaDao] ComunaDao getAll 
+2015-07-12 09:00:22,921 DEBUG[Main Thread][ComunaDao] ComunaDao getAllBeginWithBy 
+2015-07-12 09:00:22,923 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotEqBy 
+2015-07-12 09:00:22,929 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotIsNullBy 
+2015-07-12 09:00:22,931 DEBUG[Main Thread][ComunaDao] ComunaDao getAllIsNullBy 
+2015-07-12 09:00:22,933 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotContainBy 
+2015-07-12 09:00:22,935 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-12 09:00:22,965 DEBUG[Main Thread][ComunaDao] ComunaDao save 
+2015-07-12 09:00:23,032 ERROR[Main Thread][ComunaDao] Fatal could not execute statement 
+2015-07-12 09:00:23,038 DEBUG[Main Thread][ComunaDao] ComunaDao getAllEqBy 
+2015-07-12 09:00:23,041 DEBUG[Main Thread][ComunaDao] ComunaDao getAllEndWithBy 
+2015-07-12 09:00:23,043 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotBeginWithBy 
+2015-07-12 09:00:23,048 DEBUG[Main Thread][ComunaDao] ComunaDao getAllNotEndWithBy 
+2015-07-12 09:21:34,617 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 09:21:35,308 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllContainBy 
+2015-07-12 09:21:35,311 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 09:21:37,052 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 09:21:37,480 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAll 
+2015-07-12 09:21:37,486 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllBeginWithBy 
+2015-07-12 09:21:37,488 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllNotEqBy 
+2015-07-12 09:21:37,491 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllNotIsNullBy 
+2015-07-12 09:21:37,493 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllIsNullBy 
+2015-07-12 09:21:37,494 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllNotContainBy 
+2015-07-12 09:21:37,496 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao save 
+2015-07-12 09:21:37,731 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao get 
+2015-07-12 09:21:37,801 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllEqBy 
+2015-07-12 09:21:37,828 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllEndWithBy 
+2015-07-12 09:21:37,830 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllNotBeginWithBy 
+2015-07-12 09:21:37,833 DEBUG[Main Thread][ConceptoTecnicoDao] ConceptoTecnicoDao getAllNotEndWithBy 
+2015-07-12 09:29:39,337 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 09:29:40,031 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllContainBy 
+2015-07-12 09:29:40,034 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 09:29:41,772 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 09:29:42,205 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAll 
+2015-07-12 09:29:42,212 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllBeginWithBy 
+2015-07-12 09:29:42,213 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotEqBy 
+2015-07-12 09:29:42,217 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotIsNullBy 
+2015-07-12 09:29:42,218 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllIsNullBy 
+2015-07-12 09:29:42,219 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotContainBy 
+2015-07-12 09:29:42,221 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao save 
+2015-07-12 09:29:42,230 ERROR[Main Thread][ConfirmacionPedidoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Confirmacionpedido.cabezapedido] 
+2015-07-12 09:29:42,234 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllEqBy 
+2015-07-12 09:29:42,235 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllEndWithBy 
+2015-07-12 09:29:42,237 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotBeginWithBy 
+2015-07-12 09:29:42,238 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotEndWithBy 
+2015-07-12 09:34:52,840 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 09:34:53,537 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllContainBy 
+2015-07-12 09:34:53,539 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 09:34:55,270 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 09:34:55,698 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAll 
+2015-07-12 09:34:55,704 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllBeginWithBy 
+2015-07-12 09:34:55,706 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllNotEqBy 
+2015-07-12 09:34:55,709 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllNotIsNullBy 
+2015-07-12 09:34:55,711 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllIsNullBy 
+2015-07-12 09:34:55,712 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllNotContainBy 
+2015-07-12 09:34:55,714 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao save 
+2015-07-12 09:34:55,722 ERROR[Main Thread][DespachoPedidoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Despachopedido.cabezapedido] 
+2015-07-12 09:34:55,727 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllEqBy 
+2015-07-12 09:34:55,728 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllEndWithBy 
+2015-07-12 09:34:55,729 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllNotBeginWithBy 
+2015-07-12 09:34:55,731 DEBUG[Main Thread][DespachoPedidoDao] DespachoPedidoDao getAllNotEndWithBy 
+2015-07-12 09:44:14,987 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 09:44:15,681 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllContainBy 
+2015-07-12 09:44:15,684 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 09:44:17,413 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 09:44:17,843 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAll 
+2015-07-12 09:44:17,849 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllBeginWithBy 
+2015-07-12 09:44:17,850 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllNotEqBy 
+2015-07-12 09:44:17,853 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllNotIsNullBy 
+2015-07-12 09:44:17,854 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllIsNullBy 
+2015-07-12 09:44:17,856 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllNotContainBy 
+2015-07-12 09:44:17,857 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao save 
+2015-07-12 09:44:17,866 ERROR[Main Thread][DetalleDevolucionInsumoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Detalledevolucioninsumo.devolucioninsumo] 
+2015-07-12 09:44:17,871 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllEqBy 
+2015-07-12 09:44:17,872 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllEndWithBy 
+2015-07-12 09:44:17,874 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllNotBeginWithBy 
+2015-07-12 09:44:17,875 DEBUG[Main Thread][DetalleDevolucionInsumoDao] DetalleDevolucionInsumoDao getAllNotEndWithBy 
+2015-07-12 09:49:43,454 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-12 09:49:44,147 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllContainBy 
+2015-07-12 09:49:44,150 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-12 09:49:45,884 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-12 09:49:46,317 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAll 
+2015-07-12 09:49:46,318 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAll 
+2015-07-12 09:49:46,324 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllBeginWithBy 
+2015-07-12 09:49:46,326 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotEqBy 
+2015-07-12 09:49:46,329 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotIsNullBy 
+2015-07-12 09:49:46,330 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllIsNullBy 
+2015-07-12 09:49:46,332 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotContainBy 
+2015-07-12 09:49:46,333 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao save 
+2015-07-12 09:49:46,342 ERROR[Main Thread][DetalleEntregaInsumoDao] Fatal attempted to assign id from null one-to-one property [cl.obam.pasteleria.lapalmera.model.Detalleentregainsumo.entregainsumo] 
+2015-07-12 09:49:46,346 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllEqBy 
+2015-07-12 09:49:46,348 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllEndWithBy 
+2015-07-12 09:49:46,349 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotBeginWithBy 
+2015-07-12 09:49:46,352 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotEndWithBy 

@@ -1,0 +1,72 @@
+<style>
+<!--
+.nopadding-left {
+   padding-left: 0 !important;
+}
+
+.nopadding-right {  
+   padding-right: 0 !important;
+}
+-->
+</style>
+<div class="row">
+	<div class="col-md-4">
+		<div class="input-group">
+		 	<span class="input-group-addon">Insumo</span>
+			<select id="insumo" class="form-control input-small"></select>
+		</div>
+		<br/>
+  		<div class="input-group">
+    		<span class="input-group-addon">Bodega&nbsp;</span>
+			<select id="bodega" class="form-control"></select>
+		</div>
+	</div>
+</div>
+<br/>
+<div class="row">
+	<div class="col-md-8">
+    	<div class="row">
+    		<div class="col-md-8">
+    			<font size="4">Fecha Vencimiento</font>	
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-8">
+		    	<div class="form-group">
+		        	<div class='input-group date' id="datetimepicker"></div>
+		        </div>
+		    </div>
+		</div>		       
+    </div>
+    
+	<!--div class="col-md-8">
+    	<div class="form-group">
+        	<div class='input-group date' id="datetimepicker"></div>
+        </div>
+    </div-->
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<input type='hidden' id="fechaVencimiento"/>
+		<input type='text' id="fechaVencimientoView" class="form-control" placeholder="Fecha Vencimiento" disabled/>
+	</div>
+</div>	
+<br/>
+<div class="row">
+	<div class="col-md-1 nopadding-right">
+		<div class="input-group">
+			<input type="text" id="cantidad" class="form-control" placeholder="Cantidad"/>
+		</div>
+	</div>
+	<div class="col-md-3 nopadding-left">
+		<select id="unidadMedida" class="form-control"></select>
+	</div>
+</div>
+<br/>
+<div class="row">
+	<div class="col-md-8">
+		<textarea id="observacion" class="form-control" rows="3" placeholder="Observación"></textarea>
+	</div>
+</div>
+<br/>
+<button type="button" id="enviar" class="btn btn-default">Enviar</button>

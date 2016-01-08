@@ -1,0 +1,16 @@
+2015-08-26 14:05:26,849 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-26 14:05:44,320 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao get 
+2015-08-26 14:05:44,327 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-26 14:05:46,163 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-26 14:09:27,483 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-26 14:09:28,062 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao get 
+2015-08-26 14:09:28,065 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-26 14:09:29,428 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-26 14:10:14,505 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-26 14:10:15,070 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao get 
+2015-08-26 14:10:15,072 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-26 14:10:16,488 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-26 14:13:00,872 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-26 14:13:01,408 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao get 
+2015-08-26 14:13:01,411 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-26 14:13:02,933 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 

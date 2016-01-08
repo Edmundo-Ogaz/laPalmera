@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">jochua</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/lapalmera</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Lineaproduccion" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Tipoproducto" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Otracaracteristica" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Especificarproduccion" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Ciudad" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Estadopedido" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Region" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Funcionario" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Usuario" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Grupo" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Cargo" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Stock" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.User" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Ingrediente" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Productolinea" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Detallepedido" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Insumo" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Familia" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Entregainsumo" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Conceptotecnico" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Subfamilia" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Rolespermission" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Programaproduccion" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Ubicacion" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Producto" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Bodega" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Unidadmedida" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Devolucioninsumo" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Area" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Confirmacionpedido" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Capturaproduccion" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Pedido" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Cliente" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Ordenfabricacion" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Detalleentregainsumo" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Tipocliente" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Detalledevolucioninsumo" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Userrole" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Despachopedido" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Estadoordenfabricacion" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Fichatecnica" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Comuna" />
+        <mapping class="cl.obam.pasteleria.lapalmera.model.Entrega" />
+    </session-factory>
+</hibernate-configuration>

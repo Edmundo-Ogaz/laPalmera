@@ -1,0 +1,6 @@
+2015-08-08 01:15:58,683 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-08 01:15:59,281 DEBUG[Main Thread][SolicitudProductoService] SolicitudProductoService save 
+2015-08-08 01:15:59,283 DEBUG[Main Thread][ProductoLineaDao] ProductoLineaDao get 
+2015-08-08 01:15:59,285 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-08 01:16:00,722 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-08 01:16:01,236 DEBUG[Main Thread][SolicitudProductoDao] SolicitudProductoDao save 

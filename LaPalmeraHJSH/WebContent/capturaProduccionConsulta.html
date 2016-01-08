@@ -1,0 +1,90 @@
+<style>
+<!--
+.nopadding-left {
+   padding-left: 0 !important;
+}
+
+.nopadding-right {  
+   padding-right: 0 !important;
+}
+.nomargin {
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+}
+.font-size-18px {
+   font-size: 18px !important;
+}
+-->
+</style>
+<div  id="consulta">
+	<div class="row">
+		<div class="col-md-3">
+			<div class='panel panel-primary'>
+				<div class='panel-body'>
+					<div class="input-group">
+						<span class="input-group-addon">Programa Producción</span>
+						<input type="text" id="programaProduccion" class="form-control" placeholder="Programa Producción"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8">
+			<div class='panel panel-primary'>
+				<div class='panel-body'>
+					<div class="row">
+						<div class="col-md-6">
+							<font size="4">Fecha Entrega : </font><span id="fechaEntrega"></span>
+						</div>
+						<div class="col-md-6">
+							<font size="4">Estado Ord.Fab. : </font><span id="estadoOrdenFabricacion"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="hidden" id="productoCodigo"/>
+							<font size="4">Producto : </font><span id="productoNombre"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<font size="4">Linea Producción : </font><span id="lineaProduccion"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class='panel panel-primary'>
+				<div class='panel-body'>
+					<div class="row">
+						<div class="col-md-12">
+							<font size="4">Cantidad Programada : </font><span id="cantidadProgramada"></span>
+						</div>				
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<font size="4">Cantidad Fabricada&nbsp;&nbsp;&nbsp;&nbsp; : </font><span id="cantidadFabricada">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<font size="4">Saldo por Fabricar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </font><span id="saldoPorFabricar"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<table id="navgrid2" ></table>
+			<div id="pagernav2" ></div>
+		</div>
+	</div>
+	
+	<br/>
+	<button type="button" id="capturaProduccion" class="btn btn-default">Captura Producción</button>
+</div>

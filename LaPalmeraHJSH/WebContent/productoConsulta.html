@@ -1,0 +1,41 @@
+<div id="productoConsulta">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="input-group">
+					 	<span class="input-group-addon">Producto</span>
+						<select id="producto" class="form-control input-small"></select>
+					</div>
+				</div>
+				<div class="col-md-4">
+			  		<div class="input-group">
+			    		<span class="input-group-addon">Cantidad&nbsp;</span>
+						<input type="text" id="cantidad" class="form-control"></input>
+						<span id="unidadMedida" class="input-group-addon"></span>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<font size="4">Precio : </font>
+					<input type="hidden" id="precio"/>
+					<span id="precioView"></span>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-12">
+					<table id="navgrid1" ></table>
+					<div id="pagernav" ></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col-md-8">
+			<textarea id="observacion" class="form-control" rows="3" placeholder="Observación"></textarea>
+		</div>
+	</div>
+	<br/>
+	<button type="button" id="enviar" class="btn btn-default">Aceptar</button>
+</div>

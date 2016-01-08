@@ -1,0 +1,117 @@
+2015-08-25 14:40:05,900 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 14:40:06,441 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 14:40:06,443 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 14:40:08,036 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 14:40:08,566 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 14:40:08,595 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 14:41:48,220 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 14:41:48,765 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 14:41:48,767 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 14:41:50,311 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 14:41:50,835 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 14:41:50,869 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 14:44:33,401 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 14:44:33,961 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 14:44:33,964 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 14:44:35,276 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 14:44:35,810 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 14:44:35,839 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 14:44:35,950 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 14:44:35,952 ERROR[Main Thread][EntregaInsumoDao] Fatal Provided id of the wrong type for class cl.obam.pasteleria.lapalmera.model.Entregainsumo. Expected: class java.lang.Integer, got class java.lang.String 
+2015-08-25 14:47:28,985 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 14:47:29,535 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 14:47:29,538 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 14:47:30,957 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 14:47:31,391 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 14:47:31,420 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 14:47:31,546 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 14:47:31,584 ERROR[Main Thread][EntregaInsumoDao] Fatal could not execute statement 
+2015-08-25 14:50:35,230 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 14:50:35,850 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 14:50:35,854 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 14:50:37,295 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 14:50:37,847 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 14:50:37,880 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 14:50:37,994 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 14:50:38,037 ERROR[Main Thread][EntregaInsumoDao] Fatal could not execute statement 
+2015-08-25 14:51:48,689 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 14:51:49,275 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 14:51:49,277 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 14:51:50,867 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 14:51:51,442 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 14:51:51,475 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 14:51:51,607 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 15:16:50,075 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 15:16:50,657 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 15:16:50,661 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 15:16:52,032 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 15:16:52,462 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 15:16:52,492 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 15:16:52,627 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 15:49:35,196 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 15:49:35,874 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 15:49:35,876 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 15:49:37,459 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 15:49:37,932 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 15:49:37,961 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 15:49:38,066 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 15:58:06,528 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 15:58:07,155 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 15:58:07,159 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 15:58:08,773 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 15:58:09,259 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 15:58:09,289 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 15:58:09,409 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 15:59:34,624 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 15:59:35,343 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 15:59:35,345 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 15:59:37,125 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 15:59:37,742 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 15:59:43,672 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 15:59:47,712 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 16:06:27,770 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 16:06:28,497 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 16:06:28,500 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 16:06:30,183 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 16:06:30,786 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 16:06:36,340 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 16:06:37,238 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 16:07:35,056 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 16:07:35,785 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 16:07:35,789 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 16:07:37,594 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 16:07:38,194 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 16:07:38,228 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 16:07:38,393 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 16:09:51,623 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 16:09:52,446 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-08-25 16:09:52,449 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 16:09:54,275 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 16:18:30,103 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 16:18:30,839 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-08-25 16:18:30,841 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 16:18:32,678 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 16:19:52,246 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 16:20:13,022 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-08-25 16:20:13,030 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 16:20:14,823 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 16:20:25,323 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 16:20:25,484 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 16:20:25,501 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 16:20:25,639 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 16:23:48,637 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 16:23:49,228 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-08-25 16:23:49,232 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 16:23:50,753 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 16:23:51,337 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 16:23:51,412 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 16:23:51,421 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 16:23:51,560 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 
+2015-08-25 16:24:08,731 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-25 16:24:20,239 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-08-25 16:24:20,247 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-25 16:24:21,980 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-25 16:24:26,598 DEBUG[Main Thread][UbicacionDao] UbicacionDao get 
+2015-08-25 16:24:26,772 DEBUG[Main Thread][StockDao] StockDao get 
+2015-08-25 16:24:26,783 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao save 
+2015-08-25 16:24:26,934 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao delete 

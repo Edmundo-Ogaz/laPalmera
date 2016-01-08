@@ -1,0 +1,155 @@
+2015-09-14 16:29:56,229 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:29:57,694 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:29:57,699 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:30:00,112 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:36:11,928 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:36:12,810 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:36:12,818 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:36:14,929 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:38:30,653 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:38:31,268 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:38:31,271 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:38:32,665 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:39:16,675 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:39:17,295 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:39:17,298 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:39:18,677 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:49:40,181 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:49:40,744 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:49:40,746 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:49:42,238 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:49:42,414 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllBeginWithBy 
+2015-09-14 16:49:42,415 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEqBy 
+2015-09-14 16:49:42,529 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 16:50:29,247 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:50:29,890 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:50:29,894 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:50:31,322 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:50:31,869 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllBeginWithBy 
+2015-09-14 16:50:31,871 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEqBy 
+2015-09-14 16:50:32,020 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 16:52:39,127 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:52:39,735 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:52:39,737 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:52:41,074 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:52:41,536 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllBeginWithBy 
+2015-09-14 16:52:41,538 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEqBy 
+2015-09-14 16:52:41,727 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 16:52:53,862 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:53:03,610 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-09-14 16:53:04,416 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:53:06,193 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:54:02,552 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllBeginWithBy 
+2015-09-14 16:54:02,556 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEqBy 
+2015-09-14 16:54:02,764 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 16:54:29,873 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:54:30,548 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllBeginWithBy 
+2015-09-14 16:54:30,550 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:54:31,929 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 16:54:31,990 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEqBy 
+2015-09-14 16:54:32,148 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 16:57:32,314 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 16:57:33,104 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 16:57:33,107 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 16:57:34,564 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:02:26,211 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:08:02,548 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:08:02,552 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:08:04,203 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:11:57,806 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:12:06,426 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:12:06,429 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:12:08,146 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:12:28,200 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:12:29,056 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:12:29,060 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:12:30,579 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:15:20,188 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:15:20,886 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:15:20,888 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:15:20,890 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:15:22,280 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:15:22,678 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:15:22,743 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:15:23,484 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:17:41,651 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:17:42,490 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:17:42,492 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:17:42,494 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:17:43,955 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:17:44,351 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:17:44,383 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:17:44,670 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:18:40,362 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:18:41,122 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:18:41,123 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:18:41,125 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:18:42,473 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:18:42,931 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:18:42,967 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:18:43,155 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:21:05,188 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:21:06,001 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:21:06,002 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:21:06,005 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:21:07,518 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:21:07,987 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:21:08,025 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:21:08,250 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao get 
+2015-09-14 17:21:08,270 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:22:52,442 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:23:03,250 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:23:03,252 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:23:03,254 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:23:05,115 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:23:05,630 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:23:05,668 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:23:11,644 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao get 
+2015-09-14 17:23:27,626 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:23:49,853 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:24:05,232 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:24:05,235 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:24:05,240 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:24:07,129 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:24:07,675 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:24:07,713 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:24:45,033 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao get 
+2015-09-14 17:24:45,061 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:24:56,296 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:25:08,205 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:25:08,208 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:25:08,213 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:25:10,003 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:25:10,492 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:25:18,206 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:26:14,899 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao get 
+2015-09-14 17:26:14,923 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:28:34,239 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:28:40,021 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:28:40,023 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:28:40,025 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:28:41,878 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:28:42,503 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:28:47,570 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:29:26,748 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao get 
+2015-09-14 17:29:31,371 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao update 
+2015-09-14 17:29:31,375 ERROR[Main Thread][CapturaProduccionDao] Fatal The given object has a null identifier: cl.obam.pasteleria.lapalmera.model.Capturaproduccion 
+2015-09-14 17:30:15,715 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 17:30:31,831 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 17:30:40,039 DEBUG[Main Thread][CapturaProduccionService] CapturaProduccionService save 
+2015-09-14 17:30:40,041 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao get 
+2015-09-14 17:30:40,043 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 17:30:41,808 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 17:30:42,371 DEBUG[Main Thread][StockDao] StockDao get 
+2015-09-14 17:30:53,296 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-09-14 17:31:05,305 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao get 
+2015-09-14 17:31:06,202 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao delete 
+2015-09-14 17:31:13,673 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 23:33:27,523 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 23:33:29,194 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 23:33:29,294 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 23:33:32,146 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-09-14 23:35:47,454 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-09-14 23:35:48,171 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-09-14 23:35:48,173 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-09-14 23:35:49,650 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 

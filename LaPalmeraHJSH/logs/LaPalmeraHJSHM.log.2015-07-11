@@ -1,0 +1,175 @@
+2015-07-11 21:53:33,937 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 21:53:34,643 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-11 21:53:34,646 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 21:53:36,369 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 21:53:36,891 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-11 21:53:36,899 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-11 21:53:36,903 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-11 21:53:36,906 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-11 21:53:36,908 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-11 21:53:36,912 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-11 21:53:36,914 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-11 21:53:36,945 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-11 21:53:37,060 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-11 21:53:37,064 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-11 21:53:37,182 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-11 21:53:37,272 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-11 21:53:37,274 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-11 21:53:37,276 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-11 21:53:37,279 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-11 22:01:50,408 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:01:51,110 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-11 22:01:51,113 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:01:52,840 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:01:53,362 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-11 22:01:53,369 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-11 22:01:53,373 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-11 22:01:53,376 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-11 22:01:53,378 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-11 22:01:53,382 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-11 22:01:53,384 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-11 22:01:53,415 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-11 22:01:53,546 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-11 22:01:53,549 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-11 22:01:53,668 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-11 22:01:53,758 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-11 22:01:53,760 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-11 22:01:53,762 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-11 22:01:53,765 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-11 22:02:20,310 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:02:21,227 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-11 22:02:21,230 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:02:23,382 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:03:00,935 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-11 22:03:24,788 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-11 22:03:24,793 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-11 22:03:24,798 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-11 22:03:24,800 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-11 22:03:24,805 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-11 22:03:24,808 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-11 22:03:24,844 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-11 22:03:24,986 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-11 22:03:24,989 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-11 22:03:25,095 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-11 22:03:25,186 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-11 22:03:25,189 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-11 22:03:25,191 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-11 22:03:25,194 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-11 22:05:05,880 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:05:06,818 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-11 22:05:06,821 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:05:08,983 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:05:14,561 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-11 22:05:56,150 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-11 22:05:56,155 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-11 22:05:56,159 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-11 22:05:56,161 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-11 22:05:56,166 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-11 22:05:56,169 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-11 22:05:56,205 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-11 22:05:56,378 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-11 22:05:56,381 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-11 22:05:56,477 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-11 22:05:56,567 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-11 22:05:56,570 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-11 22:05:56,572 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-11 22:05:56,574 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-11 22:06:31,631 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:06:32,541 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-11 22:06:32,544 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:06:34,696 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:06:40,666 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-11 22:06:40,676 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-11 22:06:40,680 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-11 22:06:40,686 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-11 22:06:40,688 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-11 22:06:40,695 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-11 22:06:40,696 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-11 22:06:40,724 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-11 22:06:40,856 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-11 22:06:40,860 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-11 22:06:40,956 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-11 22:06:41,045 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-11 22:06:41,048 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-11 22:06:41,050 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-11 22:06:41,052 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-11 22:08:21,134 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:08:21,829 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-11 22:08:21,832 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:08:23,560 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:08:24,085 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-11 22:08:24,090 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-11 22:08:24,094 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-11 22:08:24,097 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-11 22:08:24,098 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-11 22:08:24,103 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-11 22:08:24,105 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-11 22:08:24,134 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-11 22:08:24,271 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-11 22:08:24,274 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-11 22:08:24,347 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-11 22:08:24,426 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-11 22:08:24,428 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-11 22:08:24,431 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-11 22:08:24,433 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-11 22:10:53,851 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:10:54,552 DEBUG[Main Thread][CiudadDao] CiudadDao getAllContainBy 
+2015-07-11 22:10:54,555 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:10:56,282 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:10:56,815 DEBUG[Main Thread][CiudadDao] CiudadDao getAll 
+2015-07-11 22:10:56,833 DEBUG[Main Thread][CiudadDao] CiudadDao getAllBeginWithBy 
+2015-07-11 22:10:56,837 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEqBy 
+2015-07-11 22:10:56,840 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotIsNullBy 
+2015-07-11 22:10:56,842 DEBUG[Main Thread][CiudadDao] CiudadDao getAllIsNullBy 
+2015-07-11 22:10:56,846 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotContainBy 
+2015-07-11 22:10:56,848 DEBUG[Main Thread][RegionDao] RegionDao get 
+2015-07-11 22:10:56,903 DEBUG[Main Thread][CiudadDao] CiudadDao save 
+2015-07-11 22:10:57,018 DEBUG[Main Thread][CiudadDao] CiudadDao get 
+2015-07-11 22:10:57,021 DEBUG[Main Thread][CiudadDao] CiudadDao update 
+2015-07-11 22:10:57,094 DEBUG[Main Thread][CiudadDao] CiudadDao delete 
+2015-07-11 22:10:57,173 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEqBy 
+2015-07-11 22:10:57,175 DEBUG[Main Thread][CiudadDao] CiudadDao getAllEndWithBy 
+2015-07-11 22:10:57,178 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotBeginWithBy 
+2015-07-11 22:10:57,180 DEBUG[Main Thread][CiudadDao] CiudadDao getAllNotEndWithBy 
+2015-07-11 22:23:04,139 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:23:04,839 DEBUG[Main Thread][AreaDao] AreaDao getAllContainBy 
+2015-07-11 22:23:04,842 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:23:06,565 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:23:07,069 DEBUG[Main Thread][AreaDao] AreaDao getAll 
+2015-07-11 22:23:07,073 DEBUG[Main Thread][AreaDao] AreaDao getAllBeginWithBy 
+2015-07-11 22:23:07,076 DEBUG[Main Thread][AreaDao] AreaDao getAllNotEqBy 
+2015-07-11 22:23:07,079 DEBUG[Main Thread][AreaDao] AreaDao getAllNotIsNullBy 
+2015-07-11 22:23:07,082 DEBUG[Main Thread][AreaDao] AreaDao getAllIsNullBy 
+2015-07-11 22:23:07,084 DEBUG[Main Thread][AreaDao] AreaDao getAllNotContainBy 
+2015-07-11 22:23:07,086 DEBUG[Main Thread][AreaDao] AreaDao save 
+2015-07-11 22:23:07,199 DEBUG[Main Thread][AreaDao] AreaDao get 
+2015-07-11 22:23:07,225 DEBUG[Main Thread][AreaDao] AreaDao update 
+2015-07-11 22:23:07,300 DEBUG[Main Thread][AreaDao] AreaDao delete 
+2015-07-11 22:23:07,383 DEBUG[Main Thread][AreaDao] AreaDao getAllEqBy 
+2015-07-11 22:23:07,386 DEBUG[Main Thread][AreaDao] AreaDao getAllEndWithBy 
+2015-07-11 22:23:07,388 DEBUG[Main Thread][AreaDao] AreaDao getAllNotBeginWithBy 
+2015-07-11 22:23:07,390 DEBUG[Main Thread][AreaDao] AreaDao getAllNotEndWithBy 
+2015-07-11 22:42:56,361 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:42:57,055 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllContainBy 
+2015-07-11 22:42:57,057 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:42:58,785 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:42:59,278 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-11 22:42:59,285 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllBeginWithBy 
+2015-07-11 22:42:59,286 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotEqBy 
+2015-07-11 22:42:59,290 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotIsNullBy 
+2015-07-11 22:42:59,291 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllIsNullBy 
+2015-07-11 22:42:59,293 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotContainBy 
+2015-07-11 22:42:59,295 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-07-11 22:42:59,350 ERROR[Main Thread][CabezaPedidoDao] Fatal could not execute statement 
+2015-07-11 22:42:59,359 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllEqBy 
+2015-07-11 22:42:59,361 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllEndWithBy 
+2015-07-11 22:42:59,363 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotBeginWithBy 
+2015-07-11 22:42:59,366 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotEndWithBy 
+2015-07-11 22:45:39,213 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:45:39,916 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-11 22:45:39,919 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:45:41,636 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-11 22:50:39,399 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-11 22:50:46,615 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-11 22:50:47,764 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-11 22:50:49,925 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 

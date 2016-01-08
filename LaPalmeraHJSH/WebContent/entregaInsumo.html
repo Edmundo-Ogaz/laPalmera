@@ -1,0 +1,64 @@
+<style>
+<!--
+.nopadding-left {
+   padding-left: 0 !important;
+}
+
+.nopadding-right {  
+   padding-right: 0 !important;
+}
+-->
+</style>
+<div class="row">
+	<div class="col-md-5">
+		<div class="input-group">
+			<span class="input-group-addon">Insumo</span>
+			<select id="insumo" class="form-control"></select>
+		</div>
+	</div>
+</div>
+<br/>
+<div class="row">
+	<div class="col-md-2 nopadding-right">
+		<div class="input-group">
+			<input type="text" id="cantidad" class="form-control" placeholder="Cantidad"/>
+		</div>
+	</div>
+	<div class="col-md-5 nopadding-left">
+		<select id="unidadMedida" class="form-control"></select>
+	</div>
+	
+	<!-- <div class="col-md-4">
+		<div class="input-group">
+			<span class="input-group-addon">Cantidad</span>
+			<input type="text" id="cantidad" class="form-control" placeholder="Cantidad"/>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="input-group">
+			<span class="input-group-addon">Unidad Medida</span>
+			<select id="unidadMedida" class="form-control"></select>
+		</div>
+	</div> -->
+</div>
+<br/>
+<table id="navgrid" ></table>
+<div id="pagernav" ></div>
+<br/>
+<div class="row">
+	<div class="col-md-6">
+		<div class="input-group">
+			<span class="input-group-addon">Funcionario</span>
+			<select id="funcionario" class="form-control"></select>
+		</div>
+	</div>
+</div>
+<br/>
+<div class="row">
+	<div class="col-md-8">
+		<textarea id="observacion" class="form-control" rows="3" placeholder="Observación"></textarea>
+	</div>
+</div>
+<br/>
+<button type="button" id="add" class="btn btn-default">Agregar</button>
+<button type="button" id="cancelar" class="btn btn-default">Cancelar</button>

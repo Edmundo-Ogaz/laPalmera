@@ -1,0 +1,917 @@
+2015-07-10 11:33:30,616 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 11:33:31,368 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllContainBy 
+2015-07-10 11:33:31,371 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 11:33:32,481 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.ConfirmacionPedidoDao.getAllContainBy(ConfirmacionPedidoDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.ConfirmacionPedidoService.getAllContainBy(ConfirmacionPedidoService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.ConfirmacionPedidoSeviceTest.getAllContainBy(ConfirmacionPedidoSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 11:33:32,566 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAll 
+2015-07-10 11:33:32,567 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllBeginWithBy 
+2015-07-10 11:33:32,573 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotEqBy 
+2015-07-10 11:33:32,575 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotIsNullBy 
+2015-07-10 11:33:32,576 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllIsNullBy 
+2015-07-10 11:33:32,577 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotContainBy 
+2015-07-10 11:33:32,578 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao save 
+2015-07-10 11:33:32,580 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllEqBy 
+2015-07-10 11:33:32,581 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllEndWithBy 
+2015-07-10 11:33:32,582 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotBeginWithBy 
+2015-07-10 11:33:32,583 DEBUG[Main Thread][ConfirmacionPedidoDao] ConfirmacionPedidoDao getAllNotEndWithBy 
+2015-07-10 11:40:53,308 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 11:40:54,018 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllContainBy 
+2015-07-10 11:40:54,021 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 11:40:55,106 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.CabezaPedidoDao.getAllContainBy(CabezaPedidoDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.CabezaPedidoService.getAllContainBy(CabezaPedidoService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.CabezaPedidoSeviceTest.getAllContainBy(CabezaPedidoSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 11:40:55,121 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-10 11:40:55,122 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllBeginWithBy 
+2015-07-10 11:40:55,123 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotEqBy 
+2015-07-10 11:40:55,124 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotIsNullBy 
+2015-07-10 11:40:55,126 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllIsNullBy 
+2015-07-10 11:40:55,127 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotContainBy 
+2015-07-10 11:40:55,132 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-07-10 11:40:55,134 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllEqBy 
+2015-07-10 11:40:55,135 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllEndWithBy 
+2015-07-10 11:40:55,136 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotBeginWithBy 
+2015-07-10 11:40:55,138 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotEndWithBy 
+2015-07-10 11:42:14,316 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 11:42:15,045 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllContainBy 
+2015-07-10 11:42:15,048 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 11:42:16,131 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.CabezaPedidoDao.getAllContainBy(CabezaPedidoDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.CabezaPedidoService.getAllContainBy(CabezaPedidoService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.CabezaPedidoSeviceTest.getAllContainBy(CabezaPedidoSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 11:42:16,145 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAll 
+2015-07-10 11:42:16,146 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllBeginWithBy 
+2015-07-10 11:42:16,147 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotEqBy 
+2015-07-10 11:42:16,148 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotIsNullBy 
+2015-07-10 11:42:16,154 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllIsNullBy 
+2015-07-10 11:42:16,155 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotContainBy 
+2015-07-10 11:42:16,157 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-07-10 11:42:16,158 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllEqBy 
+2015-07-10 11:42:16,159 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllEndWithBy 
+2015-07-10 11:42:16,160 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotBeginWithBy 
+2015-07-10 11:42:16,162 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao getAllNotEndWithBy 
+2015-07-10 12:08:58,151 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 12:08:58,911 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllContainBy 
+2015-07-10 12:08:58,913 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 12:09:00,128 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.CapturaProduccionDao.getAllContainBy(CapturaProduccionDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.CapturaProduccionService.getAllContainBy(CapturaProduccionService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.CapturaProduccionSeviceTest.getAllContainBy(CapturaProduccionSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 12:09:00,141 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAll 
+2015-07-10 12:09:00,143 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllBeginWithBy 
+2015-07-10 12:09:00,144 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEqBy 
+2015-07-10 12:09:00,145 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotIsNullBy 
+2015-07-10 12:09:00,146 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllIsNullBy 
+2015-07-10 12:09:00,148 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotContainBy 
+2015-07-10 12:09:00,149 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao save 
+2015-07-10 12:09:00,150 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEqBy 
+2015-07-10 12:09:00,151 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllEndWithBy 
+2015-07-10 12:09:00,153 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotBeginWithBy 
+2015-07-10 12:09:00,154 DEBUG[Main Thread][CapturaProduccionDao] CapturaProduccionDao getAllNotEndWithBy 
+2015-07-10 14:05:32,555 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 14:05:33,304 DEBUG[Main Thread][EntregaInsumoDao] EntregaInsumoDao getAll 
+2015-07-10 14:05:33,307 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 14:05:34,404 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.EntregaInsumoDao.getAll(EntregaInsumoDao.java:43)
+	at cl.obam.pasteleria.lapalmera.service.EntregaInsumoService.getAll(EntregaInsumoService.java:23)
+	at cl.obam.pasteleria.lapalmera.test.EntregaInsumoSeviceTest.getAll(EntregaInsumoSeviceTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 14:15:38,500 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 14:15:39,209 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllContainBy 
+2015-07-10 14:15:39,212 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 14:15:40,332 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.DetalleEntregaInsumoDao.getAllContainBy(DetalleEntregaInsumoDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.DetalleEntregaInsumoService.getAllContainBy(DetalleEntregaInsumoService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.DetalleEntregaInsumoSeviceTest.getAllContainBy(DetalleEntregaInsumoSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 14:15:40,347 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAll 
+2015-07-10 14:15:40,348 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllBeginWithBy 
+2015-07-10 14:15:40,350 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotEqBy 
+2015-07-10 14:15:40,351 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotIsNullBy 
+2015-07-10 14:15:40,352 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllIsNullBy 
+2015-07-10 14:15:40,353 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotContainBy 
+2015-07-10 14:15:40,355 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao save 
+2015-07-10 14:15:40,356 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllEqBy 
+2015-07-10 14:15:40,357 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllEndWithBy 
+2015-07-10 14:15:40,358 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotBeginWithBy 
+2015-07-10 14:15:40,359 DEBUG[Main Thread][DetalleEntregaInsumoDao] DetalleEntregaInsumoDao getAllNotEndWithBy 
+2015-07-10 14:25:43,431 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 14:25:44,178 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllContainBy 
+2015-07-10 14:25:44,180 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 14:25:45,278 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.IngredienteDao.getAllContainBy(IngredienteDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.IngredienteService.getAllContainBy(IngredienteService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.IngredienteSeviceTest.getAllContainBy(IngredienteSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 14:25:45,292 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAll 
+2015-07-10 14:25:45,293 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllBeginWithBy 
+2015-07-10 14:25:45,294 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllNotEqBy 
+2015-07-10 14:25:45,295 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllNotIsNullBy 
+2015-07-10 14:25:45,297 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllIsNullBy 
+2015-07-10 14:25:45,298 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllNotContainBy 
+2015-07-10 14:25:45,299 DEBUG[Main Thread][IngredienteDao] IngredienteDao save 
+2015-07-10 14:25:45,301 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllEqBy 
+2015-07-10 14:25:45,302 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllEndWithBy 
+2015-07-10 14:25:45,303 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllNotBeginWithBy 
+2015-07-10 14:25:45,304 DEBUG[Main Thread][IngredienteDao] IngredienteDao getAllNotEndWithBy 
+2015-07-10 14:32:18,443 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 14:32:19,163 DEBUG[Main Thread][InsumoDao] InsumoDao getAllContainBy 
+2015-07-10 14:32:19,166 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 14:32:20,256 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.InsumoDao.getAllContainBy(InsumoDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.InsumoService.getAllContainBy(InsumoService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.InsumoSeviceTest.getAllContainBy(InsumoSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 14:32:20,271 DEBUG[Main Thread][InsumoDao] InsumoDao getAll 
+2015-07-10 14:32:20,272 DEBUG[Main Thread][InsumoDao] InsumoDao getAllBeginWithBy 
+2015-07-10 14:32:20,274 DEBUG[Main Thread][InsumoDao] InsumoDao getAllNotEqBy 
+2015-07-10 14:32:20,276 DEBUG[Main Thread][InsumoDao] InsumoDao getAllNotIsNullBy 
+2015-07-10 14:32:20,278 DEBUG[Main Thread][InsumoDao] InsumoDao getAllIsNullBy 
+2015-07-10 14:32:20,280 DEBUG[Main Thread][InsumoDao] InsumoDao getAllNotContainBy 
+2015-07-10 14:32:20,283 DEBUG[Main Thread][InsumoDao] InsumoDao save 
+2015-07-10 14:32:20,284 DEBUG[Main Thread][InsumoDao] InsumoDao getAllEqBy 
+2015-07-10 14:32:20,286 DEBUG[Main Thread][InsumoDao] InsumoDao getAllEndWithBy 
+2015-07-10 14:32:20,287 DEBUG[Main Thread][InsumoDao] InsumoDao getAllNotBeginWithBy 
+2015-07-10 14:32:20,288 DEBUG[Main Thread][InsumoDao] InsumoDao getAllNotEndWithBy 
+2015-07-10 14:38:18,743 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 14:38:19,493 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllContainBy 
+2015-07-10 14:38:19,496 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 14:38:20,584 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.LineaProduccionDao.getAllContainBy(LineaProduccionDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.LineaProduccionService.getAllContainBy(LineaProduccionService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.LineaProduccionSeviceTest.getAllContainBy(LineaProduccionSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 14:38:20,598 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAll 
+2015-07-10 14:38:20,599 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllBeginWithBy 
+2015-07-10 14:38:20,600 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllNotEqBy 
+2015-07-10 14:38:20,602 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllNotIsNullBy 
+2015-07-10 14:38:20,603 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllIsNullBy 
+2015-07-10 14:38:20,605 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllNotContainBy 
+2015-07-10 14:38:20,606 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao save 
+2015-07-10 14:38:20,607 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllEqBy 
+2015-07-10 14:38:20,609 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllEndWithBy 
+2015-07-10 14:38:20,610 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllNotBeginWithBy 
+2015-07-10 14:38:20,612 DEBUG[Main Thread][LineaProduccionDao] LineaProduccionDao getAllNotEndWithBy 
+2015-07-10 14:45:37,059 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 14:45:37,793 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllContainBy 
+2015-07-10 14:45:37,796 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 14:45:38,896 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.OrdenFabricacionDao.getAllContainBy(OrdenFabricacionDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.OrdenFabricacionService.getAllContainBy(OrdenFabricacionService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.OrdenFabricacionSeviceTest.getAllContainBy(OrdenFabricacionSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 14:45:38,909 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAll 
+2015-07-10 14:45:38,911 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllBeginWithBy 
+2015-07-10 14:45:38,912 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllNotEqBy 
+2015-07-10 14:45:38,913 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllNotIsNullBy 
+2015-07-10 14:45:38,915 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllIsNullBy 
+2015-07-10 14:45:38,916 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllNotContainBy 
+2015-07-10 14:45:38,917 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao save 
+2015-07-10 14:45:38,918 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllEqBy 
+2015-07-10 14:45:38,920 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllEndWithBy 
+2015-07-10 14:45:38,921 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllNotBeginWithBy 
+2015-07-10 14:45:38,922 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao getAllNotEndWithBy 
+2015-07-10 14:51:16,006 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 14:51:16,742 DEBUG[Main Thread][ProductoDao] ProductoDao getAllContainBy 
+2015-07-10 14:51:16,745 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 14:51:17,836 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.AnnotationException: @OneToOne or @ManyToOne on cl.obam.pasteleria.lapalmera.model.Usuario.funcionario references an unknown entity: cl.obam.pasteleria.lapalmera.model.Funcionario
+	at org.hibernate.cfg.ToOneFkSecondPass.doSecondPass(ToOneFkSecondPass.java:109)
+	at org.hibernate.cfg.Configuration.processEndOfQueue(Configuration.java:1560)
+	at org.hibernate.cfg.Configuration.processFkSecondPassInOrder(Configuration.java:1481)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1389)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1784)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:26)
+	at cl.obam.pasteleria.lapalmera.dao.ProductoDao.getAllContainBy(ProductoDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.ProductoService.getAllContainBy(ProductoService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.ProductoSeviceTest.getAllContainBy(ProductoSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015-07-10 14:51:17,850 DEBUG[Main Thread][ProductoDao] ProductoDao getAll 
+2015-07-10 14:51:17,851 DEBUG[Main Thread][ProductoDao] ProductoDao getAllBeginWithBy 
+2015-07-10 14:51:17,852 DEBUG[Main Thread][ProductoDao] ProductoDao getAllNotEqBy 
+2015-07-10 14:51:17,854 DEBUG[Main Thread][ProductoDao] ProductoDao getAllNotIsNullBy 
+2015-07-10 14:51:17,855 DEBUG[Main Thread][ProductoDao] ProductoDao getAllIsNullBy 
+2015-07-10 14:51:17,856 DEBUG[Main Thread][ProductoDao] ProductoDao getAllNotContainBy 
+2015-07-10 14:51:17,857 DEBUG[Main Thread][ProductoDao] ProductoDao save 
+2015-07-10 14:51:17,859 DEBUG[Main Thread][ProductoDao] ProductoDao getAllEqBy 
+2015-07-10 14:51:17,860 DEBUG[Main Thread][ProductoDao] ProductoDao getAllEndWithBy 
+2015-07-10 14:51:17,861 DEBUG[Main Thread][ProductoDao] ProductoDao getAllNotBeginWithBy 
+2015-07-10 14:51:17,862 DEBUG[Main Thread][ProductoDao] ProductoDao getAllNotEndWithBy 
+2015-07-10 15:00:03,060 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 15:00:03,803 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllContainBy 
+2015-07-10 15:00:03,805 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 15:00:04,118 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.MappingException: Unable to load class [ cl.obam.pasteleria.lapalmera.model.Stock] declared in Hibernate configuration <mapping/> entry
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2219)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2167)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2147)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2100)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2015)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:23)
+	at cl.obam.pasteleria.lapalmera.dao.FuncionarioDao.getAllContainBy(FuncionarioDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.FuncionarioService.getAllContainBy(FuncionarioService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.FuncionarioSeviceTest.getAllContainBy(FuncionarioSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: cl.obam.pasteleria.lapalmera.model.Stock
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2216)
+	... 36 more
+2015-07-10 15:00:04,135 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAll 
+2015-07-10 15:00:04,136 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllBeginWithBy 
+2015-07-10 15:00:04,137 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllNotEqBy 
+2015-07-10 15:00:04,139 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllNotIsNullBy 
+2015-07-10 15:00:04,140 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllIsNullBy 
+2015-07-10 15:00:04,141 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllNotContainBy 
+2015-07-10 15:00:04,143 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao save 
+2015-07-10 15:00:04,144 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllEqBy 
+2015-07-10 15:00:04,145 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllEndWithBy 
+2015-07-10 15:00:04,146 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllNotBeginWithBy 
+2015-07-10 15:00:04,147 DEBUG[Main Thread][FuncionarioDao] FuncionarioDao getAllNotEndWithBy 
+2015-07-10 15:06:31,351 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 15:06:32,100 DEBUG[Main Thread][StockDao] StockDao getAllContainBy 
+2015-07-10 15:06:32,102 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 15:06:32,416 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.MappingException: Unable to load class [ cl.obam.pasteleria.lapalmera.model.Rolespermission] declared in Hibernate configuration <mapping/> entry
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2219)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2167)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2147)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2100)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2015)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:23)
+	at cl.obam.pasteleria.lapalmera.dao.StockDao.getAllContainBy(StockDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.StockService.getAllContainBy(StockService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.StockSeviceTest.getAllContainBy(StockSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: cl.obam.pasteleria.lapalmera.model.Rolespermission
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2216)
+	... 36 more
+2015-07-10 15:06:32,433 DEBUG[Main Thread][StockDao] StockDao getAll 
+2015-07-10 15:06:32,435 DEBUG[Main Thread][StockDao] StockDao getAllBeginWithBy 
+2015-07-10 15:06:32,436 DEBUG[Main Thread][StockDao] StockDao getAllNotEqBy 
+2015-07-10 15:06:32,437 DEBUG[Main Thread][StockDao] StockDao getAllNotIsNullBy 
+2015-07-10 15:06:32,439 DEBUG[Main Thread][StockDao] StockDao getAllIsNullBy 
+2015-07-10 15:06:32,440 DEBUG[Main Thread][StockDao] StockDao getAllNotContainBy 
+2015-07-10 15:06:32,441 DEBUG[Main Thread][StockDao] StockDao save 
+2015-07-10 15:06:32,442 DEBUG[Main Thread][StockDao] StockDao getAllEqBy 
+2015-07-10 15:06:32,444 DEBUG[Main Thread][StockDao] StockDao getAllEndWithBy 
+2015-07-10 15:06:32,445 DEBUG[Main Thread][StockDao] StockDao getAllNotBeginWithBy 
+2015-07-10 15:06:32,446 DEBUG[Main Thread][StockDao] StockDao getAllNotEndWithBy 
+2015-07-10 15:26:11,823 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 15:26:12,582 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllContainBy 
+2015-07-10 15:26:12,585 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 15:26:12,902 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.MappingException: Unable to load class [ cl.obam.pasteleria.lapalmera.model.Ubicacion] declared in Hibernate configuration <mapping/> entry
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2219)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2167)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2147)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2100)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2015)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:23)
+	at cl.obam.pasteleria.lapalmera.dao.RolesPermissionDao.getAllContainBy(RolesPermissionDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.RolesPermissionService.getAllContainBy(RolesPermissionService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.RolesPermissionSeviceTest.getAllContainBy(RolesPermissionSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: cl.obam.pasteleria.lapalmera.model.Ubicacion
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2216)
+	... 36 more
+2015-07-10 15:26:12,919 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAll 
+2015-07-10 15:26:12,920 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllBeginWithBy 
+2015-07-10 15:26:12,922 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllNotEqBy 
+2015-07-10 15:26:12,923 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllNotIsNullBy 
+2015-07-10 15:26:12,924 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllIsNullBy 
+2015-07-10 15:26:12,925 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllNotContainBy 
+2015-07-10 15:26:12,927 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao save 
+2015-07-10 15:26:12,928 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllEqBy 
+2015-07-10 15:26:12,929 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllEndWithBy 
+2015-07-10 15:26:12,930 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllNotBeginWithBy 
+2015-07-10 15:26:12,931 DEBUG[Main Thread][RolesPermissionDao] RolesPermissionDao getAllNotEndWithBy 
+2015-07-10 15:32:43,565 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 15:32:44,368 DEBUG[Main Thread][UbicacionDao] UbicacionDao getAll 
+2015-07-10 15:32:44,371 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 15:32:44,690 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.MappingException: Unable to load class [ cl.obam.pasteleria.lapalmera.model.Bodega] declared in Hibernate configuration <mapping/> entry
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2219)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2167)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2147)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2100)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2015)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:23)
+	at cl.obam.pasteleria.lapalmera.dao.UbicacionDao.getAll(UbicacionDao.java:43)
+	at cl.obam.pasteleria.lapalmera.service.UbicacionService.getAll(UbicacionService.java:23)
+	at cl.obam.pasteleria.lapalmera.test.UbicacionSeviceTest.getAll(UbicacionSeviceTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: cl.obam.pasteleria.lapalmera.model.Bodega
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2216)
+	... 36 more
+2015-07-10 15:46:34,679 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 15:46:35,434 DEBUG[Main Thread][BodegaDao] BodegaDao getAllContainBy 
+2015-07-10 15:46:35,437 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 15:46:35,748 FATAL[Main Thread][HibernateUtil] Error al cargar configuracion Hibernate 
+org.hibernate.MappingException: Unable to load class [ cl.obam.pasteleria.lapalmera.model.Unidadmedida] declared in Hibernate configuration <mapping/> entry
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2219)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2167)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2147)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2100)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2015)
+	at cl.obam.pasteleria.lapalmera.util.HibernateUtil.<clinit>(HibernateUtil.java:23)
+	at cl.obam.pasteleria.lapalmera.dao.BodegaDao.getAllContainBy(BodegaDao.java:206)
+	at cl.obam.pasteleria.lapalmera.service.BodegaService.getAllContainBy(BodegaService.java:63)
+	at cl.obam.pasteleria.lapalmera.test.BodegaSeviceTest.getAllContainBy(BodegaSeviceTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:18)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:291)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:72)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:269)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:62)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:684)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:391)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: cl.obam.pasteleria.lapalmera.model.Unidadmedida
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2216)
+	... 36 more
+2015-07-10 15:46:35,769 DEBUG[Main Thread][BodegaDao] BodegaDao getAll 
+2015-07-10 15:46:35,770 DEBUG[Main Thread][BodegaDao] BodegaDao getAllBeginWithBy 
+2015-07-10 15:46:35,771 DEBUG[Main Thread][BodegaDao] BodegaDao getAllNotEqBy 
+2015-07-10 15:46:35,772 DEBUG[Main Thread][BodegaDao] BodegaDao getAllNotIsNullBy 
+2015-07-10 15:46:35,774 DEBUG[Main Thread][BodegaDao] BodegaDao getAllIsNullBy 
+2015-07-10 15:46:35,775 DEBUG[Main Thread][BodegaDao] BodegaDao getAllNotContainBy 
+2015-07-10 15:46:35,776 DEBUG[Main Thread][BodegaDao] BodegaDao save 
+2015-07-10 15:46:35,777 DEBUG[Main Thread][BodegaDao] BodegaDao getAllEqBy 
+2015-07-10 15:46:35,779 DEBUG[Main Thread][BodegaDao] BodegaDao getAllEndWithBy 
+2015-07-10 15:46:35,780 DEBUG[Main Thread][BodegaDao] BodegaDao getAllNotBeginWithBy 
+2015-07-10 15:46:35,781 DEBUG[Main Thread][BodegaDao] BodegaDao getAllNotEndWithBy 
+2015-07-10 15:50:58,659 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 15:50:59,432 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllContainBy 
+2015-07-10 15:50:59,435 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 15:51:01,441 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-10 15:51:02,139 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAll 
+2015-07-10 15:51:02,143 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllBeginWithBy 
+2015-07-10 15:51:02,144 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllNotEqBy 
+2015-07-10 15:51:02,149 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllNotIsNullBy 
+2015-07-10 15:51:02,151 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllIsNullBy 
+2015-07-10 15:51:02,153 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllNotContainBy 
+2015-07-10 15:51:02,154 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao save 
+2015-07-10 15:51:02,243 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao get 
+2015-07-10 15:51:02,270 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao update 
+2015-07-10 15:51:02,365 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao delete 
+2015-07-10 15:51:02,431 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllEqBy 
+2015-07-10 15:51:02,434 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllEndWithBy 
+2015-07-10 15:51:02,436 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllNotBeginWithBy 
+2015-07-10 15:51:02,439 DEBUG[Main Thread][UnidadMedidaDao] UnidadMedidaDao getAllNotEndWithBy 
+2015-07-10 19:19:35,712 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-07-10 19:19:36,938 DEBUG[Main Thread][AreaDao] AreaDao getAllContainBy 
+2015-07-10 19:19:36,950 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-07-10 19:19:39,931 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-07-10 19:19:40,632 DEBUG[Main Thread][AreaDao] AreaDao getAll 
+2015-07-10 19:19:40,636 DEBUG[Main Thread][AreaDao] AreaDao getAllBeginWithBy 
+2015-07-10 19:19:40,639 DEBUG[Main Thread][AreaDao] AreaDao getAllNotEqBy 
+2015-07-10 19:19:40,644 DEBUG[Main Thread][AreaDao] AreaDao getAllNotIsNullBy 
+2015-07-10 19:19:40,668 DEBUG[Main Thread][AreaDao] AreaDao getAllIsNullBy 
+2015-07-10 19:19:40,670 DEBUG[Main Thread][AreaDao] AreaDao getAllNotContainBy 
+2015-07-10 19:19:40,672 DEBUG[Main Thread][AreaDao] AreaDao save 
+2015-07-10 19:19:40,799 DEBUG[Main Thread][AreaDao] AreaDao get 
+2015-07-10 19:19:40,828 DEBUG[Main Thread][AreaDao] AreaDao update 
+2015-07-10 19:19:40,922 DEBUG[Main Thread][AreaDao] AreaDao delete 
+2015-07-10 19:23:20,503 DEBUG[Main Thread][AreaDao] AreaDao getAllEqBy 
+2015-07-10 19:23:20,506 DEBUG[Main Thread][AreaDao] AreaDao getAllEndWithBy 
+2015-07-10 19:23:20,509 DEBUG[Main Thread][AreaDao] AreaDao getAllNotBeginWithBy 
+2015-07-10 19:23:20,511 DEBUG[Main Thread][AreaDao] AreaDao getAllNotEndWithBy 

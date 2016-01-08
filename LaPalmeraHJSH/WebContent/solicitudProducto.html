@@ -1,0 +1,55 @@
+<div id="solicitudProducto">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-10">
+					<table id="navgrid" ></table>
+					<div id="pagernav" ></div>
+				</div>
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col-md-12">
+							<button type="button" id="productoAgregar" class="btn btn-default">Agregar Producto</button>
+						</div>
+					</div>
+					<br/>
+					<div class="row">
+						<div class="col-md-12">
+							<button type="button" id="productoEliminar" class="btn btn-default">Eliminar Producto</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="row">
+				<div class="col-md-12">
+					<h4>Datos para la entrega</h4>
+				</div>
+			</div>		
+			<div class="row">
+		    	<div class="col-md-12">
+		    		<div class="form-group">
+		                <div id="datetimepicker"></div>
+		            </div>
+		        </div>
+		    </div>
+			<div class="row">
+				<div class="col-md-6">
+					<input type='hidden' id="fecha"/>
+					<input type='text' id="fechaView" class="form-control" placeholder="Fecha" disabled/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<div class="row">
+		<div class="col-md-8">
+			<textarea id="observacion" class="form-control" rows="3" placeholder="Observación"></textarea>
+		</div>
+	</div>
+	<br/>
+	<button type="button" id="enviar" class="btn btn-default">Enviar</button>
+</div>

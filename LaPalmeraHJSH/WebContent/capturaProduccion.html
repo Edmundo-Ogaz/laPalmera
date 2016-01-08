@@ -1,0 +1,74 @@
+<style>
+<!--
+.nopadding-left {
+   padding-left: 0 !important;
+}
+
+.nopadding-right {  
+   padding-right: 0 !important;
+}
+-->
+</style>
+<div id="capturaProduccion">
+<div class="row">
+	<div class="col-md-6">
+		<div class='panel panel-primary'>
+			<div class='panel-heading'>
+				Producto
+			</div>
+			<div class='panel-body'>		
+				<input type="hidden" id="productoCodigo"/>		
+				<font size="4" id="productoNombre"></font>
+				<input type="text" id="cantidad" class="form-control" placeholder="Cantidad"/>
+				<select id="unidadMedida" class="form-control"></select>
+			</div>			
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class='panel panel-primary'>
+			<div class='panel-heading'>
+				Ubicación
+			</div>
+			<div class='panel-body'>				
+				<div class="input-group">
+					<span class="input-group-addon">Bodega</span>
+					<select id="bodega" class="form-control"></select>
+				</div>
+				<textarea id="ubicacionObservacion" class="form-control" rows="3" placeholder="Ubicación observacion"></textarea>
+			</div>			
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<table id="navgrid" ></table>
+		<div id="pagernav" ></div>
+	</div>
+	<div class="col-md-6">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="input-group">
+					<font size="4" class="input-group-addon">Fecha Vencimiento</font>
+					<input type='hidden' id="fechaVencimiento"/>
+					<input type='text' id="fechaVencimientoView" class="form-control" placeholder="Fecha Vencimiento" disabled/>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+		    	<div class="form-group">
+		        	<div class='input-group date' id="datetimepicker"></div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8">
+		<textarea id="observacion" class="form-control" rows="3" placeholder="Observación"></textarea>
+	</div>
+</div>
+<br/>
+<button type="button" id="add" class="btn btn-default">Agregar</button>
+<button type="button" id="cancelar" class="btn btn-default">Cancelar</button>
+</div>

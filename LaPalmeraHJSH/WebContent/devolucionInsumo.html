@@ -1,0 +1,80 @@
+<style>
+<!--
+.nopadding-left {
+   padding-left: 0 !important;
+}
+
+.nopadding-right {  
+   padding-right: 0 !important;
+}
+-->
+</style>
+<div class="row">
+	<div class="col-md-5">
+		<div class="input-group">
+		 	<span class="input-group-addon">Insumo</span>
+			<select id="insumo" class="form-control input-small"></select>
+		</div>
+	</div>
+	<div class="col-md-3 nopadding-right">
+		<div class="input-group">
+			<span class="input-group-addon">Cantidad</span>
+			<input type="text" id="cantidad" class="form-control" placeholder="Cantidad"/>
+		</div>
+	</div>
+	<div class="col-md-4 nopadding-left">
+		<select id="unidadMedida" class="form-control"></select>
+	</div>
+</div>
+</div>
+<br/>
+<div class="row">
+	<div class="col-md-5">	
+  		<div class="input-group">
+    		<span class="input-group-addon">Bodega&nbsp;</span>
+			<select id="bodega" class="form-control"></select>
+		</div>
+	</div>
+</div>
+<br/>
+<div class="row">
+	<div class="col-md-8">
+		<h4>Fecha Vencimiento</h4>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-8">
+    	<div class="form-group">
+        	<div class='input-group date' id="datetimepicker"></div>
+        </div>
+    </div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<input type='hidden' id="fechaVencimiento"/>
+		<input type='text' id="fechaVencimientoView" class="form-control" placeholder="Fecha Vencimiento" disabled/>
+	</div>
+</div>
+<br/>
+<div class="row">
+	<div class="col-md-5">	
+  		<div class="input-group">
+    		<span class="input-group-addon">Funcionario</span>
+			<select id="funcionario" class="form-control"></select>
+		</div>
+	</div>
+</div>
+<!--div class="row">
+	<div class="col-md-8">
+		<textarea id="ubicacion" class="form-control" rows="3" placeholder="Ubicación"></textarea>
+	</div>
+</div> -->
+<br/>
+<div class="row">
+	<div class="col-md-8">
+		<textarea id="observacion" class="form-control" rows="3" placeholder="Observación"></textarea>
+	</div>
+</div>
+<br/>
+<button type="button" id="add" class="btn btn-default">Enviar</button>
+<button type="button" id="cancelar" class="btn btn-default">Cancelar</button>

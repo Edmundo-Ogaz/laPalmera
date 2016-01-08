@@ -1,0 +1,173 @@
+<div id="solicitudProductoCliente">
+	<div class="row">
+		<div id="cliente" class="col-md-12">
+			<input type="hidden" id="tipoCliente" class="form-control"></input>
+			<div class='panel panel-primary'>
+				<div class='panel-heading'>
+					Datos del Cliente
+				</div>
+				<div class='panel-body'>
+					<div class="row">
+						<div class="col-md-3" style="padding-right: 0px;">
+							<div class="input-group">
+							 	<span class="input-group-addon">Rut</span>
+							 	<input type="text" id="rut" class="form-control"></input>
+							</div>
+						</div>
+						<div class="col-md-1" style="padding-left: 0px;">
+					  		<div class="input-group">
+					    		<span class="input-group-addon">-</span>
+								<input type="text" id="dv" class="form-control"></input>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="input-group">
+							 	<span class="input-group-addon">Nombre</span>
+							 	<input type="text" id="nombre" class="form-control"></input>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="row">	
+						<div class="col-md-8">
+					  		<div class="input-group">
+					    		<span class="input-group-addon">Dirección&nbsp;</span>
+								<input type="text" id="direccion" class="form-control"></input>
+							</div>
+						</div>
+						<div class="col-md-4">
+					  		<div class="input-group">
+					    		<span class="input-group-addon">Comuna&nbsp;</span>
+								<select id="comuna" class="form-control input-small"></select>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="row">
+						<div class="col-md-3">
+					  		<div class="input-group">
+					    		<span class="input-group-addon">Teléfono&nbsp;</span>
+								<input type="text" id="telefono" class="form-control"></input>
+							</div>
+						</div>
+						<div class="col-md-3">
+					  		<div class="input-group">
+					    		<span class="input-group-addon">Celular&nbsp;</span>
+								<input type="text" id="celular" class="form-control"></input>
+							</div>
+						</div>
+						<div class="col-md-6">
+					  		<div class="input-group">
+					    		<span class="input-group-addon">E-mail&nbsp;</span>
+								<input type="text" id="email" class="form-control"></input>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div id="despacho" class="col-md-8">			
+			<div class='panel panel-primary'>
+				<div class='panel-heading'>
+					Datos para Despacho
+				</div>
+				<div class='panel-body'>
+					<div class="row">
+						<div class="col-md-7">
+							<div class="input-group">
+					    		<span class="input-group-addon">Lugar Entrega&nbsp;</span>
+								<select id="lugarEntrega" class="form-control input-small"></select>
+							</div>
+						</div>
+						<div class="col-md-5">
+				            <div class="form-group">
+				    			<div class="input-group date" id="datetimepicker">
+				    				<span class="input-group-addon">Fecha&nbsp;</span>
+				    				<input type="text" class="form-control"/>
+					    			<span class="input-group-addon">
+					    				<span class="glyphicon glyphicon-calendar"></span>
+					    			</span>
+				    			</div>
+				    			<input type='hidden' id="fecha"/>
+				            </div>
+				        </div>
+					</div>
+				</div>
+			</div>				
+		</div>
+		<div id="confirmar" class="col-md-4">
+			<div class='panel panel-primary'>
+				<div class='panel-heading'>
+					Fecha para Confirmar
+				</div>
+				<div class='panel-body'>
+					<div class="row">						
+						<div class="col-md-12">
+				    		<div class="form-group">
+				    			<div class="input-group date" id="datetimepicker">
+				    				<span class="input-group-addon">Fecha&nbsp;</span>
+				    				<input type="text" class="form-control"/>
+					    			<span class="input-group-addon">
+					    				<span class="glyphicon glyphicon-calendar"></span>
+					    			</span>
+				    			</div>
+				    			<input type='hidden' id="fecha"/>
+				            </div>
+				        </div>
+					</div>							
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-10">
+			<div class="row">
+				<div class="col-md-12">
+					<table id="navgrid1" ></table>
+					<div id="pagernav" ></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="row">
+				<div class="col-md-12">
+					<button type="button" id="productoAgregar" class="btn btn-default">Agregar Producto</button>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-12">
+					<button type="button" id="productoEliminar" class="btn btn-default">Eliminar Producto</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<div id="estado" class="row" style="display:none;">
+		<div class="col-md-6">
+			<div class='panel panel-primary'>
+				<div class='panel-heading'>
+					Estado
+				</div>
+				<div class='panel-body'>
+					<!--div class="row">
+						<div class="col-md-6"-->
+							<label class="radio-inline"><input type="radio" id="ingresado" name="estadoConfirmacion" value="I">Ingresado</label>
+							<label class="radio-inline"><input type="radio" id="confirmado" name="estadoConfirmacion" value="C">Confirmado</label>
+							<label class="radio-inline"><input type="radio" id="rechazado" name="estadoConfirmacion" value="R">Rechazado</label>
+						<!--/div>
+					</div-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8">
+			<textarea id="observacion" class="form-control" rows="3" placeholder="Observación"></textarea>
+		</div>
+	</div>
+	<br/>	
+	<button type="button" id="enviar" class="btn btn-default">Enviar</button>
+</div>

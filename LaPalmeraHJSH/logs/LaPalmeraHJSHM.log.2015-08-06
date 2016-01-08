@@ -1,0 +1,17 @@
+2015-08-06 00:52:38,116 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-06 00:53:36,034 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-06 00:55:14,582 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-06 00:55:15,132 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-08-06 00:55:15,134 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-06 00:55:16,451 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-06 09:01:23,509 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-06 09:01:34,263 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-08-06 09:01:42,817 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-06 09:01:44,473 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-06 09:05:17,793 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao save 
+2015-08-06 09:26:14,490 DEBUG[Main Thread][LoginController] LoginController constructor 
+2015-08-06 09:26:19,945 DEBUG[Main Thread][CabezaPedidoDao] CabezaPedidoDao save 
+2015-08-06 09:26:24,495 INFO [Main Thread][HibernateUtil] Cargando configuraci�n hibernate.cfg.xml en SessionFactory 
+2015-08-06 09:26:26,165 INFO [Main Thread][HibernateUtil] Configuraci�n hibernate.cfg.xml cargada 
+2015-08-06 09:26:38,235 DEBUG[Main Thread][OrdenFabricacionDao] OrdenFabricacionDao save 
+2015-08-06 09:26:38,281 ERROR[Main Thread][OrdenFabricacionDao] Fatal could not execute statement 

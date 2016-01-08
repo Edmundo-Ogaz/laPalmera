@@ -1,0 +1,54 @@
+<div id="programaProduccionConsulta">
+	<div id="consulta" class="row">
+		<div class="col-md-3">
+			<div class='panel panel-primary'>
+				<div class='panel-body'>
+					<div class="input-group">
+						<span class="input-group-addon">Orden Fabricación</span>
+						<input type="text" id="ordenFabricacion" class="form-control" placeholder="Orden Fabricación"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<div id="ordenFabricacion" class="row">
+		<div class="col-md-12">
+			<div class='panel panel-primary'>
+				<div class='panel-body'>					
+					<div class="row">
+						<div class="col-md-3" style="padding-right: 0px;">
+							<font size="4">Orden Fabricación : </font><span id="codigoOrdenFabricacion"></span>							
+						</div>						
+						<div class="col-md-4">
+			    			<font size="4">Fecha Ingreso : </font><span id="fechaIngresoView"></span>
+			    			<input type='hidden' id="fechaIngreso"/>
+				        </div>
+						<div class="col-md-4">
+							<font size="4">Número Pedido : </font><span id="numeroPedido"></span>
+				        </div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<font size="4">Producto : </font><span id="producto"></span>
+				        </div>
+						<div class="col-md-4">
+							<font size="4">Cantidad : </font><span id="cantidad"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<font size="4">Estado : </font><span id="estado"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="programaProduccions" class="row">
+				<div class="col-md-12">
+					<table id="navgrid" ></table>
+					<div id="programaProduccionsPagernav" ></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
